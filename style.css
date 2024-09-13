@@ -1,24 +1,58 @@
-.calculator {
-    width: 300px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  input {
-    width: 100%;
-    height: 50px;
-    margin-bottom: 10px;
-    padding: 10px;
-    font-size: 20px;
-    text-align: right;
-  }
-  
-  .buttons button {
-    width: 23%;
-    height: 50px;
-    margin: 5px;
-    font-size: 20px;
-  }
+
+/* Conteneur principal de la calculatrice */
+.calculator-drawing {
+  width: 220px;
+  padding: 20px;
+  margin: 50px auto;
+  background-color: #e0e0e0;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Écran de la calculatrice */
+.screen {
+  width: 100%;
+  height: 60px;
+  background-color: #333;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Style pour les rangées de boutons */
+.btn-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Boutons */
+.btn {
+  width: 48px;
+  height: 48px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  color: #333;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+/* Style des opérateurs */
+.operator {
+  background-color: #ff7043;
+  color: white;
+}
+
+/* Effet hover pour les boutons */
+.btn:hover {
+  background-color: #ddd;
+}
+
+.operator:hover {
+  background-color: #f4511e;
+}
 
